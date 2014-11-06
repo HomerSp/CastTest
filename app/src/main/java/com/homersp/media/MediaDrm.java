@@ -156,7 +156,7 @@ public class MediaDrm {
             "nsFIcDpyItse4lgjapyeg0tBlrkFSh85k50LNoYGlH9d7MXPAWjcdtl4GaC4SpD/5zqG7nStrlQa" +
             "osQALie/+8v8xahld5MB7OyAkJydlpSxB88xoQ==";
 
-    /*public static android.media.MediaDrm createMediaDrm()
+    public static android.media.MediaDrm createMediaDrm()
     {
         UUID wvUUID = new UUID(-0x121074568629b532L, -0x5c37d8232ae2de13L);
         try {
@@ -166,7 +166,7 @@ public class MediaDrm {
         }
 
         return null;
-    }*/
+    }
 
     public static MediaDrm.CertificateRequest getCertificateRequest(android.media.MediaDrm drm, int certType, String certAuthority) {
         try {
